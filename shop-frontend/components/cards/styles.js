@@ -6,6 +6,7 @@ export default {
     display: flex;
     justify-content: center;
     max-width: 100vw;
+    margin-top: 50px;
   `,
   SubContainer: styled.div`
     display: flex;

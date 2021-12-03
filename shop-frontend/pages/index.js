@@ -5,14 +5,14 @@ const BoxLogo = styled.div``;
 const H1 = styled.h1``;
 const Image = styled.img``;
 
+import Menu from '../components/menu';
 import Card from '../components/cards';
 
 const Index = (props) => {
 
   return (
     <div>
-      <h1><img src="/trufas.png" alt="Trufa Shop" /></h1>
-      <p>Esse é um projeto top</p>
+      <Menu />
 
       <Card dataCard={props} />
     </div>
