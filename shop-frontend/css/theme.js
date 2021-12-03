@@ -1,21 +1,17 @@
 const theme = {
   colors: {
-    blueStrong: '#131A40',
-    blueActive: '#034AA6',
-    blueRelative: '#0367A6',
-    blueClear: '#0378A6',
-    browRelative: '#8C0303',
-    browStrong: '#590202',
-    yellowActive: '#F2E205',
-    yellowBurned: '#F2CB05',
-    OrangeStrong: '#F29F05',
-    grayClean: '#D3D3D3'
+    greenStrong: '#355911',
+    grayActive: '#73655A',
+    grayRelative: '#C0C0C0',
+    grayClean: '#EBEBE3',
+    orangeOpacity: '#D9814E',
+    browActive: '#592E25',
+    browRelative: '#A6654E',
   }
 }
 
-// FONT MONOTION --> font-family: 'Monoton', sans-serif;
-// FONT RUSSO ONE ---> font-family: 'Russo One', sans-serif;
-// FONT TRAIN ONE ---> 'Train One', sans-serif
-// FONT ROBOTO --> 300, 400, 700
+// FONT Fredoka --> font-family: 'Fredoka One', sans-serif;
+// FONT Lobster ---> font-family: 'Lobster', sans-serif;
+// FONT Roboto ---> 'Roboto', sans-serif
 
 export default theme;

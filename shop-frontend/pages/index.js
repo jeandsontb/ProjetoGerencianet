@@ -1,16 +1,20 @@
 import Prismic from 'prismic-javascript';
+import styled from 'styled-components';
+
+const BoxLogo = styled.div``;
+const H1 = styled.h1``;
+const Image = styled.img``;
+
+import Card from '../components/cards';
 
 const Index = (props) => {
 
-  const produc = [1,2,3,4,5,6,7];
-
   return (
     <div>
-      <h1>Dev-Shop</h1>
+      <h1><img src="/trufas.png" alt="Trufa Shop" /></h1>
       <p>Esse é um projeto top</p>
-      <pre>{JSON.stringify(props, null, 2)}</pre>
 
-      
+      <Card dataCard={props} />
     </div>
   )
 }
