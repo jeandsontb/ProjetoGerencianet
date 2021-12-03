@@ -8,7 +8,7 @@ const fs = require('fs');
 const APIProduction = 'https://api-pix.gerencianet.com.br';
 const APIHomologation = 'https://api-pix-h.gerencianet.com.br';
 
-const baseURL = process.env.GN_ENV === 'producao' ? APIProduction : APIHomologation;
+const baseURL = process.env.GN_ENV === 'production' ? APIProduction : APIHomologation;
 
 const getToken = async () => {
   const certificate = fs.readFileSync('../'+process.env.GN_CERTIFICADO);
