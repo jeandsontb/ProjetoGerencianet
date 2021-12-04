@@ -7,7 +7,10 @@ import { useCard } from '../context/CardContext';
 const Menu = () => {
 
   const card = useCard();
-  const itemsCount= Object.keys(card.card).length;
+  // const itemsCount= Object.keys(card.card).length;
+  const itemsCount = Object.keys(card.card).reduce((prev, count) => {
+    return prev + card.card[count].quantity;
+  }, 0);
 
   return (
     <Style.Container>
