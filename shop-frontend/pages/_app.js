@@ -5,18 +5,21 @@ import GlobalStyle from '../css/global';
 import theme from '../css/theme';
 import 'tailwindcss/tailwind.css';
 import FontStyles from '../components/fontApplication/fontStyles';
+import { CardProvider } from '../components/context/CardContext';
 
 const MyApp = ({Component, pageProps}) => {
   return (
     <React.Fragment>
-      <GlobalStyle />
-      <ThemeProvider theme={theme}>
-        <FontStyles>
+      <CardProvider>
+        <GlobalStyle />
+        <ThemeProvider theme={theme}>
+          <FontStyles>
 
-          <Component {...pageProps} />
+            <Component {...pageProps} />
 
-        </FontStyles>
-      </ThemeProvider>
+          </FontStyles>
+        </ThemeProvider>
+      </CardProvider>
     </React.Fragment>
   )
 }
