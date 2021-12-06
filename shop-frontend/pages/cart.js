@@ -7,17 +7,17 @@ const H1 = styled.h1``;
 const Image = styled.img``;
 
 import Menu from '../components/menu';
-import Card from '../components/cards';
+import CartBussiness from '../components/cartBusiness';
 
 const Index = (props) => {
 
   return (
     <div>
-      <Head><title>Trufas Hummmm</title></Head>
+      <Head><title>Carrinho Trufas Hummmm</title></Head>
 
       <Menu />
 
-      <Card dataCard={props} />
+      <CartBussiness />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Style from './styles';
 
 import { CartIcon } from '../iconsJs';
@@ -15,8 +16,12 @@ const Menu = () => {
   return (
     <Style.Container>
       <Style.BoxLogo>
-        <Style.ImageLogo src="/trufas.png" alt="trufas" />
-        <Style.TextLogo>Trufas Huuuummmmm</Style.TextLogo>
+          <Style.ImageLogo src="/trufas.png" alt="trufas" />
+        <Link href="/">
+          <a>
+            <Style.TextLogo>Trufas Huuuummmmm</Style.TextLogo>
+          </a>
+        </Link >
       </Style.BoxLogo>
 
       <Style.BoxMenu>
@@ -32,11 +37,13 @@ const Menu = () => {
             </Style.LinkMenu>
           </Style.TextMenu>
           <Style.TextMenu>
-            <Style.LinkMenu href="#">
-              Carrinho
-              {itemsCount > 0 && <span> ({itemsCount})</span>} 
-              <CartIcon />
-            </Style.LinkMenu>
+            <Link href="/cart">
+              <Style.LinkMenu href="#">
+                Carrinho
+                {itemsCount > 0 && <span> ({itemsCount})</span>} 
+                <CartIcon />
+              </Style.LinkMenu>
+            </Link>
           </Style.TextMenu>
         </Style.ListMenu>
       </Style.BoxMenu>
