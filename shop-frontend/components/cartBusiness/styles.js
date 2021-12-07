@@ -4,6 +4,7 @@ import theme from '../../css/theme';
 export default {
   Container: styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -87,6 +88,21 @@ export default {
           font-size: 12px;
         }
       }
+    }
+  `,
+
+  BoxForm: styled.div`
+    display: flex;
+    flex-direction: row;
+    width: calc(100vw - 10%);
+    height: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    box-shadow: 0px 1px 10px ${theme.colors.orangeRelative};
+    margin-bottom: 40px;
+
+    @media(max-width: 720px) {
+      flex-direction: column;
     }
   `,
 

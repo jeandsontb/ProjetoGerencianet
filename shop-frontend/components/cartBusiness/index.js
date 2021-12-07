@@ -1,5 +1,7 @@
 import React from 'react';
 import { useCard } from '../context/CardContext';
+import CartForm from './cartForm';
+import CartOrder from './cartOrder';
 
 import Style from './styles';
 
@@ -68,10 +70,10 @@ const CartBussiness = () => {
                 />
               </div>
               <div className="box-items">
-                <h2>R$ {prod.data.price}</h2>
+                <h2>R$ {Number(prod.data.price).toFixed(2).replace('.', ',')}</h2>
               </div>
               <div className="box-items">
-                <h2>R$ {prod.data.price * quantity}</h2>
+                <h2>R$ {Number(prod.data.price * quantity).toFixed(2).replace('.', ',')}</h2>
               </div>
             </div>
             </Style.BoxItems>
@@ -79,6 +81,11 @@ const CartBussiness = () => {
         })}
 
       </Style.BoxCart>
+
+      <Style.BoxForm>
+        <CartForm />
+        <CartOrder />
+      </Style.BoxForm>
     </Style.Container>
   )
 }
