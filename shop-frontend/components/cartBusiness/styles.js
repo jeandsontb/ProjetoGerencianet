@@ -59,6 +59,13 @@ export default {
         color: ${theme.colors.browRelative};
         font-size: 16px;
       }
+
+      input {
+        background-color: ${theme.colors.orangeRelative};
+        color: ${theme.colors.browRelative};
+        width: 60px;
+        text-align: center;
+      }
     }
 
     @media(max-width: 720px) {
