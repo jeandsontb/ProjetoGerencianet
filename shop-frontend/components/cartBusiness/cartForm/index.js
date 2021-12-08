@@ -3,6 +3,7 @@ import Style from './styles';
 import { useFormik } from 'formik';
 import { useCard } from '../../context/CardContext';
 import { IconPresent } from '../../iconsJs';
+import axios from 'axios';
 
 const CartForm = () => {
 
@@ -14,7 +15,8 @@ const CartForm = () => {
       phone: ''
     },
     onSubmit: async (values) => {
-      console.log(values)
+      const results = await axios.post('http://localhost:3333/create-order', values);
+      console.log(results.data);
     }
   });
 

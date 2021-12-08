@@ -1,6 +1,5 @@
 import React from 'react';
 import Style from './styles';
-import { useFormik } from 'formik';
 import { useCard } from '../../context/CardContext';
 
 const CartOrder = () => {
