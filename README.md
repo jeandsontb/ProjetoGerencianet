@@ -21,6 +21,8 @@ Esse projeto faz parte do curso Fullstack Master - DevPleno, ele é uma loja sim
 
 ## 💡 Informações de como executar o projeto
 
+* Antes de rodar o projeto, verifique o arquivo .env.example para pegar as variáveis de ambiente para o projeto funcionar.
+
 ```bash
 
   # Clonar todo o repositório ou em partes "backend-app" e "frontend-app"
