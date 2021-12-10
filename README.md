@@ -7,13 +7,12 @@
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Trufa" title="#Trufa" src="https://raw.githubusercontent.com/jeandsontb/ProjetoGerencianet/main/screen/Shoop.gif" width="400px">
-  <img alt="Trufa" title="#Trufa" src="https://raw.githubusercontent.com/jeandsontb/ProjetoGerencianet/main/screen/trufa00.png" width="400px">
+  <img alt="Trufa" title="#Trufa" src="https://raw.githubusercontent.com/jeandsontb/ProjetoGerencianet/main/screen/Shoop.gif" width="auto">  
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Trufa" title="#Trufa" src="https://raw.githubusercontent.com/jeandsontb/ProjetoGerencianet/main/screen/trufa00.png" width="400px">
   <img alt="Trufa" title="#Trufa" src="https://raw.githubusercontent.com/jeandsontb/ProjetoGerencianet/main/screen/trufa01.png" width="400px">
-  <img alt="Trufa" title="#Trufa" src="https://raw.githubusercontent.com/jeandsontb/ProjetoGerencianet/main/screen/trufa02.png" width="400px">
 </p>
 
 ## 💻 Sobre o Projeto
