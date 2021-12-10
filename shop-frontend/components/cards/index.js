@@ -13,11 +13,9 @@ const Card = ({dataCard}) => {
 
   return (
     <Style.Container>
-      <Style.SubContainer>
-        
-        {product.map((prod) => (
-          <Style.BoxCard>
-
+      <Style.SubContainer>        
+        {product.map((prod, key) => (
+          <Style.BoxCard key={key}>
             <Style.BoxCardTop>
               <Style.ImgCard src={prod.data.image.url} />
             </Style.BoxCardTop>
@@ -26,7 +24,9 @@ const Card = ({dataCard}) => {
               <Style.TextCardTitle>
                 {prod.data.name}
               </Style.TextCardTitle>
-              <Style.TextCardPrice>R$ {prod.data.price}</Style.TextCardPrice>
+              <Style.TextCardPrice>
+                R$ {Number(prod.data.price).toFixed(2).replace('.', ',')}
+              </Style.TextCardPrice>
               <Style.ButtonCard onClick={add(prod)}>
                 Adicionar no carrinho <CartIcon />
               </Style.ButtonCard>

@@ -8,6 +8,7 @@ const Image = styled.img``;
 
 import Menu from '../components/menu';
 import CartBussiness from '../components/cartBusiness';
+import Footer from '../components/footer';
 
 const Index = (props) => {
 
@@ -18,6 +19,8 @@ const Index = (props) => {
       <Menu />
 
       <CartBussiness />
+
+      <Footer />
     </div>
   )
 }

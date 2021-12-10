@@ -94,14 +94,16 @@ const CartForm = () => {
         }
 
         {orderStatus === 'ordering' &&
-          <p>Processando pedido... aguarde!</p>
+          <Style.BoxProcess>
+            <p>Processando pedido... aguarde!</p>
+          </Style.BoxProcess>
         }
 
         {orderStatus === 'order-received' &&
-          <>
-            <p>Efetue o pagamento com o QRCode abaixo.</p>
+          <Style.BoxQrcode>
+            <p>Pedido realizado, efetue o pagamento com o QRCode abaixo.</p>
             <img src={qrcode} />
-          </>
+          </Style.BoxQrcode>
         }
       </Style.BoxForm>
     </Style.Container>

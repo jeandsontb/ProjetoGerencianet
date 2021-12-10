@@ -13,7 +13,6 @@ export default {
     justify-content: center;
     flex-wrap: wrap;
     width: 90vw;
-    height: 500px;
   `,
   BoxCard: styled.div`
     width: 250px;

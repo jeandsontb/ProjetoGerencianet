@@ -68,4 +68,39 @@ export default {
       box-shadow: 1px 2px 4px ${theme.colors.grayRelative};
     }
   `,
+  BoxProcess: styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 18px;
+      color: ${theme.colors.browActive};
+      margin-bottom: 20px;
+    }
+  `,
+  BoxQrcode: styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+
+    p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      color: ${theme.colors.browActive};
+      margin-bottom: 20px;
+    }
+
+    img {
+      border-radius: 10px;
+      box-shadow: 0px 2px 4px ${theme.colors.browRelative};
+    }
+  `,
 }
