@@ -7,12 +7,13 @@
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Trufa" title="#Trufa" src="" width="400px">
+  <img alt="Trufa" title="#Trufa" src="https://raw.githubusercontent.com/jeandsontb/ProjetoGerencianet/main/screen/Shoop.gif" width="400px">
+  <img alt="Trufa" title="#Trufa" src="https://raw.githubusercontent.com/jeandsontb/ProjetoGerencianet/main/screen/trufa00.png" width="400px">
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Trufa" title="#Trufa" src="" width="400px">
-  <img alt="Trufa" title="#Trufa" src="" width="400px">
+  <img alt="Trufa" title="#Trufa" src="https://raw.githubusercontent.com/jeandsontb/ProjetoGerencianet/main/screen/trufa01.png" width="400px">
+  <img alt="Trufa" title="#Trufa" src="https://raw.githubusercontent.com/jeandsontb/ProjetoGerencianet/main/screen/trufa02.png" width="400px">
 </p>
 
 ## 💻 Sobre o Projeto
@@ -50,7 +51,6 @@ As seguintes ferramentas estão sendo usadas na construção do projeto:
 - [Styled-Components][styled]
 - [Tailwind-CSS][tailwind]
 - [Axios][axios]
-- [Crypto-JS][cryptojs]
 - [Vscode][vscode]
 - [UUID][uuid]
 - [Formik][formik]
